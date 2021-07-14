@@ -1,0 +1,14 @@
+F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\bin\Debug\netstandard2.0\HcmCloudRemoteSignInMobile.deps.json
+F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\bin\Debug\netstandard2.0\HcmCloudRemoteSignInMobile.dll
+F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\bin\Debug\netstandard2.0\ref\HcmCloudRemoteSignInMobile.dll
+F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\bin\Debug\netstandard2.0\HcmCloudRemoteSignInMobile.pdb
+F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\obj\Debug\netstandard2.0\HcmCloudRemoteSignInMobile.csproj.AssemblyReference.cache
+F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\obj\Debug\netstandard2.0\HcmCloudRemoteSignInMobile.AssemblyInfoInputs.cache
+F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\obj\Debug\netstandard2.0\HcmCloudRemoteSignInMobile.AssemblyInfo.cs
+F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\obj\Debug\netstandard2.0\HcmCloudRemoteSignInMobile.csproj.CoreCompileInputs.cache
+F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\obj\Debug\netstandard2.0\XamlC.stamp
+F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\obj\Debug\netstandard2.0\HcmCloudRemoteSignInMobile.dll
+F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\obj\Debug\netstandard2.0\ref\HcmCloudRemoteSignInMobile.dll
+F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\obj\Debug\netstandard2.0\HcmCloudRemoteSignInMobile.pdb
