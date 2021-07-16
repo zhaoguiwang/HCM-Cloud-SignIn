@@ -29,18 +29,17 @@ namespace HcmCloudRemoteSignInMobile
         {
             try
             {
-                GetCookie();
-                RemoteSignInAsync();
+                IList<RestResponseCookie> cookies=GetCookie();
+                RemoteSignInAsync(cookies);
             }
             catch (Exception exception)
             {
                 log.Text += "\n" + exception.Message;
             }
         }
-
-        private IList<RestResponseCookie> cookie;
-        private void GetCookie()
+        private IList<RestResponseCookie> GetCookie()
         {
+            IList<RestResponseCookie> cookies = new List<RestResponseCookie>();
             try
             {
                 var client = new RestClient("https://inspur.hcmcloud.cn/login?sso=emmcloud");
@@ -53,7 +52,7 @@ namespace HcmCloudRemoteSignInMobile
                 request = new RestRequest(Method.GET);
                 response = client.Execute(request);//2
                 location = response.Headers.ToList().Find(x => x.Name == "Location").Value.ToString();
-                cookie = response.Cookies;
+                cookies = response.Cookies;
 
                 client = new RestClient(location);
                 request = new RestRequest(Method.GET);
@@ -79,24 +78,24 @@ namespace HcmCloudRemoteSignInMobile
                 {
                     throw new Exception("用户名/密码错误，请检查");
                 }
-                cookie = cookie.Union(response.Cookies).ToList();
+                cookies = cookies.Union(response.Cookies).ToList();
                 location = response.Headers.ToList().Find(x => x.Name == "Location").Value.ToString();
 
                 client = new RestClient(location);
                 client.FollowRedirects = false;
                 request = new RestRequest(Method.GET);
-                foreach (var item in cookie)
+                foreach (var item in cookies)
                 {
                     request.AddCookie(item.Name, item.Value);
                 }
                 response = client.Execute(request);//5
                 location = response.Headers.ToList().Find(x => x.Name == "Location").Value.ToString();
-                cookie[0] = response.Cookies[0];
+                cookies[0] = response.Cookies[0];
 
                 client = new RestClient(location);
                 client.FollowRedirects = false;
                 request = new RestRequest(Method.GET);
-                foreach (var item in cookie)
+                foreach (var item in cookies)
                 {
                     request.AddCookie(item.Name, item.Value);
                 }
@@ -107,8 +106,8 @@ namespace HcmCloudRemoteSignInMobile
                 client.FollowRedirects = false;
                 request = new RestRequest(Method.GET);
                 response = client.Execute(request);//7
-                cookie = response.Cookies;
-                if (cookie.Count == 2)
+                cookies = response.Cookies;
+                if (cookies.Count == 2)
                 {
                     log.Text += "\n" + "获取Cookie成功";
                 }
@@ -121,6 +120,7 @@ namespace HcmCloudRemoteSignInMobile
             {
                 throw new Exception("获取Cookie失败：" + e.Message);
             }
+            return cookies;
         }
         private string GetCCWorkVersion()
         {
@@ -133,11 +133,11 @@ namespace HcmCloudRemoteSignInMobile
             log.Text += "\nccwork版本为：" + version;
             return version;
         }
-        private async Task<Location> GetRandomLocationAsync()
+        private async Task<Location> GetRandomLocationAsync(IList<RestResponseCookie> cookies)
         {
             var client = new RestClient("https://inspur.hcmcloud.cn/api/attend.get.emp.location.list");
             var request = new RestRequest(Method.POST);
-            foreach (var item in cookie)
+            foreach (var item in cookies)
             {
                 request.AddCookie(item.Name, item.Value);
             }
@@ -160,7 +160,7 @@ namespace HcmCloudRemoteSignInMobile
             log.Text += $"\n({randomLocation.longitude},{randomLocation.latitude})";
             return randomLocation;
         }
-        private async Task RemoteSignInAsync()
+        private async Task RemoteSignInAsync(IList<RestResponseCookie> cookies)
         {
             var versioname = GetCCWorkVersion();
             var client = new RestClient("https://inspur.hcmcloud.cn/api/attend.signin.create");
@@ -188,7 +188,7 @@ namespace HcmCloudRemoteSignInMobile
             request.AddHeader("Accept-Language", "zh-CN, zh; q=0.9, en-US; q=0.8, en; q=0.7");
             Dictionary<string, object> body = new Dictionary<string, object>();
             //获取随机签到地点
-            Location location = await GetRandomLocationAsync();
+            Location location = await GetRandomLocationAsync(cookies);
             body.Add("location_id", location.id);
             body.Add("type", 3);
             body.Add("latitude", location.latitude);
@@ -201,7 +201,7 @@ namespace HcmCloudRemoteSignInMobile
             body.Add("images", "");
             body.Add("hash", GenerateMD5($"{location.id}3{location.latitude}{location.longitude}{time}hcm cloud"));
             request.AddParameter("undefined", JsonConvert.SerializeObject(body), ParameterType.RequestBody);
-            foreach (var item in cookie)
+            foreach (var item in cookies)
             {
                 request.AddCookie(item.Name, item.Value);
             }
