@@ -9,6 +9,7 @@ using RestSharp;
 using System.Security.Cryptography;
 using Newtonsoft.Json;
 using Microsoft.Extensions.Configuration;
+using RestSharp.Authenticators;
 
 namespace HcmCloudRemoteSignInPc
 {
@@ -114,7 +115,8 @@ namespace HcmCloudRemoteSignInPc
         }
         private static string GetCCWorkVersion()
         {
-            var client = new RestClient("https://b.ccwork.com/htime/htime/queryOneVersion");
+            //var client = new RestClient("https://b.ccwork.com/htime/htime/queryOneVersion");//云上协同接口调整
+            var client = new RestClient("https://b.myhtime.com/htime/htime/queryOneVersion");
             var request = new RestRequest(Method.POST);
             request.AddHeader("Content-Type", "application/json");
             request.AddParameter("undefined", "{\"appType\":\"1\",\"actionCode\":\"1\"}", ParameterType.RequestBody);
@@ -209,12 +211,13 @@ namespace HcmCloudRemoteSignInPc
                 return sb.ToString();
             }
         }
+
     }
-    class VersionEntity
+    public class VersionEntity
     {
         public DataEntity data;
     }
-    class DataEntity
+    public class DataEntity
     {
         public string versioname;
     }

@@ -124,7 +124,8 @@ namespace HcmCloudRemoteSignInMobile
         }
         private string GetCCWorkVersion()
         {
-            var client = new RestClient("https://b.ccwork.com/htime/htime/queryOneVersion");
+            //var client = new RestClient("https://b.ccwork.com/htime/htime/queryOneVersion");//云上协同接口调整
+            var client = new RestClient("https://b.myhtime.com/htime/htime/queryOneVersion");
             var request = new RestRequest(Method.POST);
             request.AddHeader("Content-Type", "application/json");
             request.AddParameter("undefined", "{\"appType\":\"1\",\"actionCode\":\"1\"}", ParameterType.RequestBody);

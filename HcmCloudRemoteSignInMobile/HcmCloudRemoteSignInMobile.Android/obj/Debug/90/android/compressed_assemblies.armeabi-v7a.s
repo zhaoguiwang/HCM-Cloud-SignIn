@@ -379,7 +379,7 @@
 
 	/* 39: mscorlib.dll */
 	/* uncompressed_file_size */
-	.long	2112000
+	.long	2112512
 	/* loaded */
 	.byte	0
 	/* data */

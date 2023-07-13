@@ -359,7 +359,7 @@
 
 	/* 39: mscorlib.dll */
 	/* uncompressed_file_size */
-	.word	2112000
+	.word	2112512
 	/* loaded */
 	.byte	0
 	/* data */

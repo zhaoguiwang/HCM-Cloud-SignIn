@@ -12,3 +12,4 @@ F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSign
 F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\obj\Debug\netstandard2.0\HcmCloudRemoteSignInMobile.dll
 F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\obj\Debug\netstandard2.0\ref\HcmCloudRemoteSignInMobile.dll
 F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\obj\Debug\netstandard2.0\HcmCloudRemoteSignInMobile.pdb
+F:\test\VSProject\HCM-Cloud-SignIn\HcmCloudRemoteSignInMobile\HcmCloudRemoteSignInMobile\obj\Debug\netstandard2.0\HcmCloudRemoteSignInMobile.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,39 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "F:\\test\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.Android\\HcmCloudRemoteSignInMobile.Android.csproj": {}
+    "D:\\我的工程\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.Android\\HcmCloudRemoteSignInMobile.Android.csproj": {}
   },
   "projects": {
-    "F:\\test\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.Android\\HcmCloudRemoteSignInMobile.Android.csproj": {
+    "D:\\我的工程\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.Android\\HcmCloudRemoteSignInMobile.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\test\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.Android\\HcmCloudRemoteSignInMobile.Android.csproj",
+        "projectUniqueName": "D:\\我的工程\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.Android\\HcmCloudRemoteSignInMobile.Android.csproj",
         "projectName": "HcmCloudRemoteSignInMobile.Android",
-        "projectPath": "F:\\test\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.Android\\HcmCloudRemoteSignInMobile.Android.csproj",
-        "packagesPath": "F:\\NuGet\\.nuget",
-        "outputPath": "F:\\test\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.Android\\obj\\",
+        "projectPath": "D:\\我的工程\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.Android\\HcmCloudRemoteSignInMobile.Android.csproj",
+        "packagesPath": "D:\\repository\\NuGetPackages\\",
+        "outputPath": "D:\\我的工程\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\MicrosoftVisualStudio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\zhaoguiwang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "monoandroid90"
         ],
         "sources": {
+          "D:\\repository\\NuGetPackages": {},
           "https://nuget.cdn.azure.cn/v3/index.json": {},
-          "https://repos.iec.io/repository/nuget-bf-internal/": {}
+          "https://repos.iec.io/repository/nuget-bf-internal/": {},
+          "https://repos.iec.io/repository/nuget-bf-releases": {},
+          "https://repos.iec.io/repository/nuget-bf-snapshots/": {}
         },
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "F:\\test\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.csproj": {
-                "projectPath": "F:\\test\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.csproj"
+              "D:\\我的工程\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.csproj": {
+                "projectPath": "D:\\我的工程\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.csproj"
               }
             }
           }
@@ -54,30 +57,33 @@
         }
       }
     },
-    "F:\\test\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.csproj": {
+    "D:\\我的工程\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\test\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.csproj",
+        "projectUniqueName": "D:\\我的工程\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.csproj",
         "projectName": "HcmCloudRemoteSignInMobile",
-        "projectPath": "F:\\test\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.csproj",
-        "packagesPath": "F:\\NuGet\\.nuget",
-        "outputPath": "F:\\test\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile\\obj\\",
+        "projectPath": "D:\\我的工程\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile.csproj",
+        "packagesPath": "D:\\repository\\NuGetPackages\\",
+        "outputPath": "D:\\我的工程\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInMobile\\HcmCloudRemoteSignInMobile\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\MicrosoftVisualStudio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\zhaoguiwang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\repository\\NuGetPackages": {},
           "https://nuget.cdn.azure.cn/v3/index.json": {},
-          "https://repos.iec.io/repository/nuget-bf-internal/": {}
+          "https://repos.iec.io/repository/nuget-bf-internal/": {},
+          "https://repos.iec.io/repository/nuget-bf-releases": {},
+          "https://repos.iec.io/repository/nuget-bf-snapshots/": {}
         },
         "frameworks": {
           "netstandard2.0": {
@@ -124,11 +130,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

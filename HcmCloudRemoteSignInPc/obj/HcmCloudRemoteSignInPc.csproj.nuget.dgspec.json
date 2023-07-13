@@ -1,33 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "F:\\test\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInPc\\HcmCloudRemoteSignInPc.csproj": {}
+    "D:\\我的工程\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInPc\\HcmCloudRemoteSignInPc.csproj": {}
   },
   "projects": {
-    "F:\\test\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInPc\\HcmCloudRemoteSignInPc.csproj": {
+    "D:\\我的工程\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInPc\\HcmCloudRemoteSignInPc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\test\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInPc\\HcmCloudRemoteSignInPc.csproj",
+        "projectUniqueName": "D:\\我的工程\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInPc\\HcmCloudRemoteSignInPc.csproj",
         "projectName": "HcmCloudRemoteSignInPc",
-        "projectPath": "F:\\test\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInPc\\HcmCloudRemoteSignInPc.csproj",
-        "packagesPath": "F:\\NuGet\\.nuget",
-        "outputPath": "F:\\test\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInPc\\obj\\",
+        "projectPath": "D:\\我的工程\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInPc\\HcmCloudRemoteSignInPc.csproj",
+        "packagesPath": "D:\\repository\\NuGetPackages\\",
+        "outputPath": "D:\\我的工程\\VSProject\\HCM-Cloud-SignIn\\HcmCloudRemoteSignInPc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\MicrosoftVisualStudio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\zhaoguiwang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\repository\\NuGetPackages": {},
           "https://nuget.cdn.azure.cn/v3/index.json": {},
-          "https://repos.iec.io/repository/nuget-bf-internal/": {}
+          "https://repos.iec.io/repository/nuget-bf-internal/": {},
+          "https://repos.iec.io/repository/nuget-bf-releases": {},
+          "https://repos.iec.io/repository/nuget-bf-snapshots/": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -68,7 +71,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -77,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
