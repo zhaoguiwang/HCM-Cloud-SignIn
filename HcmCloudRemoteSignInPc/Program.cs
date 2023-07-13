@@ -151,7 +151,7 @@ namespace HcmCloudRemoteSignInPc
             IConfiguration config = configurationBuilder.Build();
             if (string.IsNullOrEmpty(config["useragent"]))
             {
-                client.UserAgent = "Mozilla/5.0 (Linux; Android 10; SEA-AL10 Build/HUAWEISEA-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Mobile Safari/537.36/emmcloud/ccwork/" + versioname;
+                client.UserAgent = "Mozilla/5.0 (Linux; Android 13; PHU110 Build/SKQ1.221119.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36/emmcloud/" + versioname;
             }
             else
             {

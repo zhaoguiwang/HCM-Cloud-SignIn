@@ -442,10 +442,7 @@
       "sources": {
         "C:\\Program Files\\dotnet\\library-packs": {},
         "D:\\repository\\NuGetPackages": {},
-        "https://nuget.cdn.azure.cn/v3/index.json": {},
-        "https://repos.iec.io/repository/nuget-bf-internal/": {},
-        "https://repos.iec.io/repository/nuget-bf-releases": {},
-        "https://repos.iec.io/repository/nuget-bf-snapshots/": {}
+        "https://nuget.cdn.azure.cn/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
